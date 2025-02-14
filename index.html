@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratik Devkota</title>
+    <link rel="icon" type="image/png" href="./public/letter-p.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./fanta.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="/">Pratik Dev</a>
+      <nav>
+        <a href="https://github.com/Pratik58D" target="_blank">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/pratik-devkota2058/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="intro">
+          <h1>Namaste🙏!</h1>
+          <p>Computer Enginner</p>
+        </div>
+        <h5 class="intro-description">
+          Code, coffee, and a little bit of chaos—I'm Pratik, a MERN stack dev
+          and AI explorer. Based on Nepal, I love playing cricket,football..
+          Let's build something awesome!
+        </h5>
+        <div class="links">
+          <i class="link-arrow fa-solid fa-arrow-right"></i>
+          <a href="mailto:pratikdevkota58@gmail.com"> Email</a>
+          <a href="https://github.com/Pratik58D" target="_blank"> GitHuB </a>
+          <a
+            href="https://www.linkedin.com/in/pratik-devkota2058/"
+            target="_blank"
+          >
+            Linkedin
+          </a>
+        </div>
+        <div id="play-game">
+          <button onclick="handleColor()">play games???</button>
+        </div>
+        <div class="color-back" style="display: none">
+          <h4>pick a color</h4>
+          <p id="warning" style="display: none">
+            wow..i can't believe you Ruined it. Quickly Reset it
+          </p>
+          <input
+            type="color"
+            id="color-choose"
+            onchange="changeColor()"
+            value="#0234ff"
+          />
+          <button onclick="handleReset()" style="display: none">Reset</button>
+        </div>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>Subject</td>
+              <td>Technologies</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>FronEnd</td>
+              <td>HTML | CSS | TailwindCss | JavaScript | React</td>
+            </tr>
+            <tr>
+              <td>BackEnd</td>
+              <td>Nodejs | express | Python | Django</td>
+            </tr>
+            <tr>
+              <td>Databases</td>
+              <td>SQl | mongoDb</td>
+            </tr>
+            <tr>
+              <td>Libraries & Tools</td>
+              <td>Git | OpenCv | Scikit-learn | Numpy | Matplotlib | pandas</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Latest Projects</h2>
+        <div class="cards-grids">
+          <hr />
+          <div class="project-card">
+            <div>
+              <p>Sep 2024</p>
+              <h4>Sign Recognition System for Devanagari Script</h4>
+              <div class="tech-list">
+                <div class="card-button-secondary">
+                  <p>React Js</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>flask</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>Mediapipe</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>Suport Vector Machine</p>
+                </div>
+              </div>
+              <p></p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Pratik58D/sign_langauge_for_devanagari_script"
+                  target="_blank"
+                  >Github</a
+                >
+              </div>
+            </div>
+            <div class="img-div">
+              <img
+                class="thumbnail"
+                src="/public/project1.png"
+                alt="thumbnail"
+              />
+            </div>
+          </div>
+          <hr />
+          <div class="project-card">
+            <div>
+              <p>Sep 2024</p>
+              <h4>Sign Recognition System for Devanagari Script</h4>
+              <div class="tech-list">
+                <div class="card-button-secondary">
+                  <p>React Js</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>flask</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>Mediapipe</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>Suport Vector Machine</p>
+                </div>
+              </div>
+              <p></p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Pratik58D/sign_langauge_for_devanagari_script"
+                  target="_blank"
+                  >Github</a
+                >
+              </div>
+            </div>
+            <div class="img-div">
+              <img
+                class="thumbnail"
+                src="/public/project1.png"
+                alt="thumbnail"
+              />
+            </div>
+          </div>
+          <hr />
+          <div class="project-card">
+            <div>
+              <p>Aug 2024</p>
+              <h4>Real-time Chat Application</h4>
+              <div class="tech-list">
+                <div class="card-button-secondary">
+                  <p>React Js</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>Nodejs</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>Express js</p>
+                </div>
+                <div class="card-button-secondary">
+                  <p>Mongoose</p>
+                </div>
+              </div>
+              <p></p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Pratik58D/sign_langauge_for_devanagari_script"
+                  target="_blank"
+                  >Github</a
+                >
+              </div>
+            </div>
+            <div class="img-div">
+              <img
+                class="thumbnail"
+                src="/public/project1.png"
+                alt="thumbnail"
+              />
+            </div>
+          </div>
+          <hr />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Pratik Devkota | All Rights Reserved</p>
+      <p>
+        Contact:
+        <a href="mailto:pratikdevkota58@gmail.com">pratikdevkota58@gmail.com</a>
+      </p>
+    </footer>
+    <script>
+      const body = document.querySelector("body");
+      const colorInput = document.querySelector("#color-choose");
+      const colorBack = document.querySelector(".color-back");
+      const warning = document.querySelector("#warning");
+      const resetBtn = document.querySelector(".color-back button");
+      const playGame = document.querySelector("#play-game");
+      // console.log(body)
+
+      //play games : when clicked the option comes in
+      const handleColor = () => {
+        colorBack.style.display = "block";
+        playGame.style.display = "none";
+      };
+
+      // handling the background according to input
+      const changeColor = () => {
+        body.style.backgroundColor = colorInput.value;
+        warning.style.display = "block";
+        resetBtn.style.display = "block";
+        colorInput.style.display= "none"
+      };
+
+      const handleReset = () => {
+        body.style.backgroundColor = "white";
+        colorBack.style.display = "none";
+        resetBtn.style.display = "none";
+        playGame.style.display = "block";
+      };
+    </script>
+  </body>
+</html>
